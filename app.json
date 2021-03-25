@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,13 +17,27 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "splash": {
+        "image": "./assets/favicon.png",
+        "resizeMode": "cover"
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icons/1.jpeg",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "splash": {
+        "mdpi": "./assets/icons/dog.png",
+        "hdpi": "./assets/icons/dog.png",
+        "xhdpi": "./assets/icons/dog.png",
+        "xxhdpi": "./assets/icons/dog.png",
+        "xxxhdpi": "./assets/icons/dog.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.bhaskar_bhowmik.PetMate"
     },
     "web": {
       "favicon": "./assets/favicon.png"
